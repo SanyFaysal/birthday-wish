@@ -319,8 +319,6 @@ function reveal() {
     "src",
     "https://www.youtube.com/embed/O2aQhWwxuyY?controls=0&loop=1&autoplay=1"
   );
-  //ifrm.style.width = `${w}px`;
-  //ifrm.style.height = `${h}px`;
   ifrm.style.border = "none";
   document.querySelector("#video").appendChild(ifrm);
 }
