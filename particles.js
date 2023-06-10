@@ -315,10 +315,7 @@ function reveal() {
   }
 
   var ifrm = document.createElement("iframe");
-  ifrm.setAttribute(
-    "src",
-    "https://www.youtube.com/embed/O2aQhWwxuyY?controls=0&loop=1&autoplay=1"
-  );
+  ifrm.setAttribute("src", "video.mp4");
   ifrm.setAttribute("allow", "autoplay");
   ifrm.style.border = "none";
   document.querySelector("#video").appendChild(ifrm);

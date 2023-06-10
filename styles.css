@@ -35,6 +35,7 @@ canvas#canvas {
 }
 
 div#beach {
+  /* background-image: url(https://c4.wallpaperflare.com/wallpaper/926/884/47/couple-enjoy-sunset-wallpaper-preview.jpg); */
   background-image: url(https://dl.dropbox.com/s/oe0oce2udq44bj5/beachsil2.png);
   /* background-size: cover; */
   background-position: bottom right;
@@ -108,7 +109,7 @@ div#sea {
 }
 .giftbox:after {
   position: absolute;
-  color: #fd0094;
+  color: #fd08d4;
   width: 100%;
   content: "Click Here";
   left: 0;
